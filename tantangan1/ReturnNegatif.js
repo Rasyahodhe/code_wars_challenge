@@ -1,5 +1,3 @@
-function makeNegative(num) {
+export default function makeNegative(num) {
   return num > 0 ? 0 - num : num;
 }
-
-console.log(makeNegative(10));

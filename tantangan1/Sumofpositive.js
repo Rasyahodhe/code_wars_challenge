@@ -23,6 +23,4 @@ function positiveSum(arr) {
   return hasil;
 }
 
-console.log(positiveSum([1, -2, 3, 4, 5]));
-console.log(positiveSum([-1, 2, 3, 4, -5]));
-console.log(positiveSum([-1, -2, -3, -4, -5]));
+export default positiveSum;
